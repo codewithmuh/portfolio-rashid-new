@@ -1,0 +1,68 @@
+@import './styles/main';
+html {
+	scroll-behavior: smooth;
+}
+body {
+	background: $bg;
+	font-family: $font-family;
+	font-size: 2rem;
+	width: 100%;
+	color: $gray;
+}
+.App {
+	text-align: center;
+}
+
+// common
+h1 {
+	font-family: $font-family;
+	font-size: 6rem;
+	line-height: 142%;
+	font-weight: weight(bold);
+	color: $primary;
+}
+h2 {
+	font-family: $font-family;
+	font-size: 5rem;
+	line-height: 142%;
+	font-weight: weight(bold);
+}
+h3 {
+	font-family: $font-family;
+	font-size: 3rem;
+	line-height: 35px;
+	font-weight: weight(bold);
+}
+h4 {
+	font-family: $font-family;
+	font-size: 3rem;
+	font-style: normal;
+	line-height: 35px;
+	font-weight: weight(medium);
+}
+
+h5 {
+	font-family: $font-family;
+	font-size: 2.25rem;
+	font-style: normal;
+	line-height: 180%;
+	font-weight: weight(medium);
+	color: $light;
+	letter-spacing: 0.8px;
+}
+
+p {
+	font-family: $font-family;
+	font-size: 2rem;
+	font-style: normal;
+	line-height: 23px;
+	font-weight: weight(regular);
+	color: $gray;
+}
+.section__title {
+	text-align: center;
+	text-transform: uppercase;
+	color: $light;
+	line-height: 35px;
+	font-size: 3rem;
+}

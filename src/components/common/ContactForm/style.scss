@@ -1,0 +1,34 @@
+@import 'styles/_main.scss';
+.contact-form {
+	position: fixed !important;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.6);
+	z-index: 1000;
+	width: 100%;
+	height: 100%;
+}
+.form__inner {
+	max-width: 800px;
+	height: 70vh;
+	margin: 10% auto 0 auto;
+	position: relative;
+	background-color: $gray-light;
+	.form__close {
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 50px;
+		height: 50px;
+		margin-right: -10px;
+		margin-top: -10px;
+		z-index: 10;
+		cursor: pointer;
+	}
+	.form__loader {
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}

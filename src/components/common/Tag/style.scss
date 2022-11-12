@@ -1,0 +1,22 @@
+@import '../../../styles/main';
+
+.tag {
+	width: 100%;
+	.tag-container {
+		min-width: 70px;
+		text-align: center;
+		border-radius: 4px;
+		padding: 10px;
+	}
+	.primary {
+		background-color: $tag-ok;
+	}
+	.secondary {
+		background-color: $tag-no;
+	}
+	p {
+		color: $bg-light;
+		size: 2rem;
+		text-transform: capitalize;
+	}
+}

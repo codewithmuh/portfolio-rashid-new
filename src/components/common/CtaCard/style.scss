@@ -1,0 +1,32 @@
+@import '../../../styles/main';
+.cta-card {
+	padding: 40px;
+	width: 100%;
+	background-color: $bg-light;
+	text-align: center;
+	&__container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border-radius: 4px;
+		padding-top: 50px;
+		padding-bottom: 30px;
+		h1 {
+			color: $light;
+			width: 95%;
+			display: flex;
+			justify-content: center;
+		}
+		p {
+			display: flex;
+			justify-content: center;
+			margin: 20px auto 10px auto;
+			width: 80%;
+		}
+		button {
+			margin-bottom: 20px;
+			margin-top: 20px;
+		}
+	}
+}

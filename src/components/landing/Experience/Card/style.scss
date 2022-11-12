@@ -1,0 +1,41 @@
+@import '../../../../styles/main';
+.experience-card {
+	border-radius: 4px;
+	max-width: 270px;
+	background: $card-bg;
+	min-height: 280px;
+	margin-right: 15px;
+	margin-bottom: 20px;
+	&__container {
+		padding: 10px;
+	}
+	&__logo {
+		object-fit: contain;
+		min-height: 70px;
+		margin-top: 20px;
+		& > img {
+			object-fit: contain;
+			width: 100px;
+		}
+	}
+	&__title {
+		color: $primary;
+		font-weight: weight(bold);
+		margin-bottom: 20px;
+	}
+	&__progress {
+		font-weight: weight(bold);
+		margin-top: 15px;
+	}
+	&__time {
+		margin-top: 10px;
+		margin-bottom: 15px;
+	}
+	@media (max-width: 667px) {
+		min-width: 370px;
+		margin-bottom: 40px;
+		padding-left: 10px;
+		padding-right: 10px;
+		margin-right: 0px;
+	}
+}

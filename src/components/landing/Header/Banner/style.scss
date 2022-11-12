@@ -1,0 +1,83 @@
+@import '../../../../styles/main';
+
+.banner {
+	padding: 40px;
+	width: 100%;
+	&__bg {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		z-index: -1;
+		object-fit: contain;
+	}
+	&__container {
+		max-width: $max-width;
+		z-index: 8;
+		width: 100%;
+		margin: auto;
+		margin-top: 10%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		@media (max-width: 900px) {
+			margin-top: 20%;
+		}
+		@media (max-width: 700px) {
+			margin-top: 20%;
+		}
+		@media (max-width: 500px) {
+			margin-top: 40%;
+		}
+	}
+	&__image {
+		max-width: 450px;
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+	&__content {
+		max-width: 60%;
+		text-align: left;
+		h3,
+		h1,
+		h5 {
+			margin-bottom: 10px;
+		}
+		button {
+			margin-top: 15px;
+		}
+		.text-highlight {
+			font-weight: weight(bold);
+			border-bottom: 1px solid $light;
+		}
+		.github {
+			color: #cfffd8;
+			&:hover {
+				color: $primary;
+				border-bottom: 1px solid $light;
+				cursor: pointer;
+			}
+		}
+
+		.dribbble {
+			color: #ea4c89;
+		}
+	}
+	@media (max-width: 800px) {
+		padding: 20px;
+		&__image {
+			display: none;
+		}
+		&__content {
+			max-width: 90%;
+			margin: auto;
+			text-align: center;
+			h1 {
+				font-size: 3rem;
+				margin: 15px 0px;
+			}
+		}
+	}
+}

@@ -1,0 +1,103 @@
+@import '../../../styles/main';
+
+button,
+.MuiButtonBase-root .MuiButton-root {
+	padding: 10px 25px;
+	background: transparent;
+	font-size: 2rem;
+	font-weight: weight(medium);
+	line-height: 23px;
+	border-radius: 4px;
+	cursor: pointer;
+	position: relative;
+}
+
+.normal {
+	border: 2px solid $gray;
+	color: $light;
+	cursor: pointer;
+	transition: 100ms color ease-in-out;
+	&:hover {
+		background: $gray;
+		color: $bg-light;
+	}
+}
+
+.outline {
+	border: 2px solid $primary;
+	color: $light;
+	cursor: pointer;
+	transition: 100ms color ease-in-out;
+	&:hover {
+		background: $primary;
+		color: $bg-light;
+	}
+}
+
+.solid {
+	border: none;
+	background: $gray;
+	color: $bg;
+	transition: 100ms color ease-in-out;
+	&:hover {
+		background: $primary;
+		color: $bg-light;
+	}
+}
+.solid-primary {
+	border: none;
+	background: $primary;
+	color: $bg;
+	transition: 100ms color ease-in-out;
+	&:hover {
+		background: $primary-hover;
+		color: $bg-light;
+	}
+}
+.button__overlay {
+	display: none;
+	background: rgba(99, 97, 97, 0.502);
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 100%;
+	height: 100%;
+	margin-left: -50%;
+	border-radius: 30%;
+	animation: ripple 1s infinite;
+	opacity: 0;
+	z-index: 55;
+}
+.button__overlay:focus:not(:active)::after {
+	display: block;
+}
+@keyframes ripple {
+	from {
+		opacity: 1;
+		transform: scale(0);
+	}
+	to {
+		opacity: 0;
+		transform: scale(1.2);
+	}
+}
+/* 
+.button__overlay {
+	position: absolute;
+	border-radius: 50%;
+	background-color: red;
+	width: 100%;
+	height: 100%;
+	
+	top: 50%;
+	left: 50%;
+
+	animation: ripple 1s infinite;
+	opacity: 0;
+}
+.button__overlay:focus:not(:active)::after {
+	display: block;
+}
+
+
+ */

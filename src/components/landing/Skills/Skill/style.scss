@@ -1,0 +1,28 @@
+@import '../../../../styles/main';
+.skill-item {
+	flex: 1 40%;
+	display: flex;
+	align-items: center;
+	padding: 20px 5%;
+	&__logo {
+		.logo__circle {
+			width: 85px;
+			height: 85px;
+			border-radius: 50%;
+			background: $gray-light;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin-right: 15px;
+			.logo__icon {
+			}
+		}
+	}
+	&__content {
+		text-align: left;
+		h4 {
+			color: $light;
+			margin-bottom: 5px;
+		}
+	}
+}

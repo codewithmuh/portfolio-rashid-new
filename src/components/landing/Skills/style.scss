@@ -1,0 +1,22 @@
+@import '../../../styles/main';
+.skills {
+	padding: 40px;
+	width: 100%;
+	&__container {
+		max-width: $max-width;
+		width: 100%;
+		margin: auto;
+		background-color: $bg-light;
+		border-radius: 4px;
+		min-height: 550px;
+		padding-top: 50px;
+	}
+	&__lists {
+		display: flex;
+		flex-wrap: wrap;
+		margin-top: 50px;
+	}
+	@media (max-width: 600px) {
+		padding: 40px 20px;
+	}
+}
