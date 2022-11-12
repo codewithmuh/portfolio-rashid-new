@@ -67,7 +67,7 @@ const Navbar = () => {
 								<a
 									href={
 										process.env.PUBLIC_URL +
-										"/images/Bikash_sharma_cv2022-sm.pdf"
+										"/images/Resume-Muhammad-Rashid.pdf"
 									}
 									rel="noopener noreferrer"
 									target="_blank">
