@@ -24,7 +24,7 @@ function Skills() {
 					/>
 					<Skill
 						name="Back-end + DevOps"
-						detail="Node, Express, SQL, NoSQL, Docker, Google Cloud, Kubernetes"
+						detail="Django Rest Framework, Node, SQL, NoSQL, Jenkins, Docker, Google Cloud, Kubernetes"
 						icon={nodeIcon}
 					/>
 					<Skill
