@@ -1,10 +1,10 @@
 export const ExperienceData = [
   {
-    title: 'Lead Product Developer',
+    title: 'React & Django Developer',
     detail:
-      'WordPress hosting for agencies and freelancers, that makes growing your business easier than ever before.',
-    image: process.env.PUBLIC_URL + '/images/wonsta_logo.png',
-    progress: 'On going',
+      'BigCommerce is the most trusted commerce solution provider. I worked on thier React & Django project.',
+    image: process.env.PUBLIC_URL + '/images/bicommerce.png',
+    progress: 'BigCommerce, USA',
     time: 'Started: 08.2022 - Ended: 10.2022',
   },
   {
@@ -16,20 +16,20 @@ export const ExperienceData = [
     time: 'Started: 08.2022 - Ended: 10.2022',
   },
   {
-    title: 'UX/UI/Front-end',
+    title: 'Director of Engineering for Django | Project Manager',
     detail:
-      'A knowledge-sharing platform between experts and learners',
-    image: process.env.PUBLIC_URL + '/images/kaamyabi_logo.png',
-    progress: 'In development..',
-    time: 'Started: 08.2022 - Ended: 10.2022',
+      'A platform for Blockchain based decentralized applications and smart contracts.',
+    image: process.env.PUBLIC_URL + '/images/thenewboston.png',
+    progress: 'Thenewboston, USA',
+    time: 'Started: Nov 13, 2021 - Ended: Jan 28, 2022',
   },
   {
-    title: 'Product Designer',
+    title: 'Wordpress Developer Role',
     detail:
-      'Doctual was a platform for lawyers and startups',
-    image: process.env.PUBLIC_URL + '/images/doctual_logo.png',
-    progress: 'Sold out',
-    time: '01.2017 - 11.2018',
+      'Power Energy Compnay, Providing Energy solutions to thier customers.',
+    image: process.env.PUBLIC_URL + '/images/power.png',
+    progress: 'Alset Power Company, USA',
+    time: 'Started: Nov 9, 2020 -  Ended Feb 11.2021',
   },
 
 
