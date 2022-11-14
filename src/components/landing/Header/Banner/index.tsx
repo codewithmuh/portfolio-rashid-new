@@ -24,7 +24,7 @@ export const Banner = () => {
 						side as well as the users’ side of any project. I commit code to{" "}
 						<a
 							className="github"
-							href="https://github.com/RASHIDDAHA"
+							href="https://github.com/rashiddaha"
 							target="_blank"
 							rel="noopener noreferrer">
 							Github.

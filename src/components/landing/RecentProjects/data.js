@@ -30,11 +30,11 @@ export const RecentProjectData = [
     buttons: [{ label: 'Demo', link: 'https://apps.apple.com/cr/app/combustify/id1588136598' }, { label: 'Code', link: 'https://github.com/rashiddaha' }],
   },
   {
-    title: 'Lets do it',
+    title: 'EyeCorntrol Web App',
     detail:
-      'Day todo app using Vue, Vue router, Vuex, css,',
-    image: process.env.PUBLIC_URL + '/images/letsdoit_thumb.png',
-    buttons: [{ label: 'Demo', link: 'https://vueletsdoit.netlify.app/' }, { label: 'Code', link: 'https://github.com/rashiddaha' }],
+      'React and AWS Lambda based ICU communication platform enabling connectivity between ventilated patients, medical teams & family',
+    image: process.env.PUBLIC_URL + '/images/eye-project.png',
+    buttons: [{ label: 'Demo', link: 'https://family-app-six.vercel.app/' }, { label: 'Code', link: 'https://github.com/rashiddaha' }],
   },
   // {
   //   title: 'Git Trending',

@@ -38,8 +38,7 @@ const Footer = () => {
 					</a>
 				</div>
 				<p>
-					Designed and developed by Muhammad Rashid. Built with React. Hosted on
-					Netlify.
+					Designed and developed by Muhammad Rashid
 				</p>
 				<p>Copyright © Rashid {new Date().getFullYear()}</p>
 			</div>

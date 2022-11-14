@@ -5,15 +5,15 @@ export const ExperienceData = [
       'WordPress hosting for agencies and freelancers, that makes growing your business easier than ever before.',
     image: process.env.PUBLIC_URL + '/images/wonsta_logo.png',
     progress: 'On going',
-    time: '10.2020 -',
+    time: 'Started: 08.2022 - Ended: 10.2022',
   },
   {
-    title: 'Co-founder',
+    title: 'Full-Stack Developer',
     detail:
-      'Roles: Web Designer/ Digital Marketer/Co-founder',
-    image: process.env.PUBLIC_URL + '/images/velkko_logo.png',
-    progress: 'Freelance Agency',
-    time: '10.2016 - 08.2020',
+      'Roles: Frontend(ReactJS), Backend(Serverless AWS Lambda) and Deploymnent on server',
+    image: process.env.PUBLIC_URL + '/images/eye.jpeg',
+    progress: 'EyeControl Company, Israel',
+    time: 'Started: 08.2022 - Ended: 10.2022',
   },
   {
     title: 'UX/UI/Front-end',
@@ -21,7 +21,7 @@ export const ExperienceData = [
       'A knowledge-sharing platform between experts and learners',
     image: process.env.PUBLIC_URL + '/images/kaamyabi_logo.png',
     progress: 'In development..',
-    time: '02.2020 - 08.2020',
+    time: 'Started: 08.2022 - Ended: 10.2022',
   },
   {
     title: 'Product Designer',
