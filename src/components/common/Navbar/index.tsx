@@ -1,6 +1,6 @@
 import React, {useRef, useState} from "react"
 
-import Logo from "assets/brands/logo"
+import Logo from "assets/brands/logo.png"
 import MenuIcon from "@material-ui/icons/Menu"
 import Button from "components/common/Button"
 import CloseIcon from "@material-ui/icons/Close"
@@ -30,10 +30,14 @@ const Navbar = () => {
 		<>
 			{value && <ContactForm onclose={handleClose} />}
 			<div id="nav-bar" className="navbar">
-				<div className="navbar__container">
+				<div className="navbar__container" >
 					<div className="navbar__logo">
-						<a href="#nav-bar" rel="noopener noreferrer">
-							<Logo />
+				
+						<a href="/" rel="noopener noreferrer">
+							
+							
+							<img src={Logo} alt=""  width={192} height={100}/>
+							
 						</a>
 					</div>
 					<div className="navbar__links">
