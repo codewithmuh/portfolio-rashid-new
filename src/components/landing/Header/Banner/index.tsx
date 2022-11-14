@@ -44,7 +44,7 @@ export const Banner = () => {
 					</a>
 				</div>
 				<div className="banner__image">
-					<img src={HeroImage} alt="Bikash Sharma smiling" />
+					<img src={HeroImage} alt="Muhammad Rashid smiling" />
 				</div>
 			</div>
 			<img
