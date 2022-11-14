@@ -36,7 +36,7 @@ const Navbar = () => {
 						<a href="/" rel="noopener noreferrer">
 							
 							
-							<img src={Logo} alt=""  width={192} height={100}/>
+							<img src={Logo} alt=""  width={140} height={50}/>
 							
 						</a>
 					</div>
@@ -76,6 +76,14 @@ const Navbar = () => {
 									rel="noopener noreferrer"
 									target="_blank">
 									CV
+								</a>
+								
+							</li>
+							<li>
+								<a href="https://www.upwork.com/freelancers/~01b0bdb4d921c3a555" 
+								 rel="noopener noreferrer"
+								 target="_blank">
+									Upwork Profile
 								</a>
 							</li>
 							<Button onClick={handleOpen} label="Contact" variant="outline" />
