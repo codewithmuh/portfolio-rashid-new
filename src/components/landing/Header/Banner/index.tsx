@@ -17,9 +17,9 @@ export const Banner = () => {
 						I’m a LAHORE-based full-stack developer focused on writing code
 						that makes an{" "}
 						<span className="text-highlight">impact on users.</span> I have also
-						gained experience as a consultant,
-						<span className="text-highlight"> product designer</span>, and
-						digital marketer. My experience as a UX designer and startup
+						gained experience as a 
+						<span className="text-highlight"> product designer, Backend/Frontend developer and DevOps Engineer</span>, and
+						by working with differnt Companies. My experience as a and startup
 						co-founder has opened the ability to understand both the business
 						side as well as the users’ side of any project. I commit code to{" "}
 						<a
