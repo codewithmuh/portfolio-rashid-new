@@ -24,7 +24,7 @@ function Skills() {
 					/>
 					<Skill
 						name="Back-end + DevOps"
-						detail="Django Rest Framework, Node, SQL, NoSQL, Jenkins, Docker, Google Cloud, Kubernetes"
+						detail="Django Rest Framework, Django, SQL, NoSQL, Jenkins, Docker, Google Cloud, Kubernetes, AWS"
 						icon={nodeIcon}
 					/>
 					<Skill
@@ -39,7 +39,7 @@ function Skills() {
 					/>
 					<Skill
 						name="Additional"
-						detail="Python, PHP,Socket.io, Git, WordPress"
+						detail="Python, scripting, Socket.io, Git, WordPress, NLP, ML"
 						icon={pythonIcon}
 					/>
 					<Skill
