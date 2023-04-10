@@ -1,4 +1,21 @@
 export const RecentProjectData = [
+
+  {
+    title: 'SwapApp Ads Website',
+    detail:
+      'SwapApp is a marketplace that connects sellers and buyers commission-free. With just one subscription you can offer their different offers',
+    image: 'https://miro.medium.com/v2/resize:fit:600/format:webp/1*D-ejcg4WYorO4Qesl6E3CQ.png',
+    buttons: [{ label: 'Demo', link: 'https://www.staging.swapapp.de/' }, { label: 'Code', link: 'https://github.com/rashiddaha' },],
+    // status: 'Private Repo',
+  },
+  {
+    title: 'Bunker Insurancer Portal',
+    detail:
+      'Buncker is a Insurance Portal where Users buy insurance Plans and other offers.',
+    image: 'https://miro.medium.com/v2/resize:fit:600/format:webp/1*YEvzExmh1jI0JVHACmeNqQ.png',
+    buttons: [{ label: 'Demo', link: 'https://medasinsurance.com/' }, { label: 'Code', link: 'https://github.com/rashiddaha' },],
+    status: 'Private Repo',
+  },
   {
     title: 'Online Gamehub Website',
     detail:

@@ -23,8 +23,13 @@ function Skills() {
 						icon={reactIcon}
 					/>
 					<Skill
-						name="Back-end + DevOps"
-						detail="Django Rest Framework, Django, SQL, NoSQL, Jenkins, Docker, Google Cloud, Kubernetes, AWS"
+						name="Back-end"
+						detail="Django Rest Framework, Django, SQL, NoSQL"
+						icon={nodeIcon}
+					/>
+					<Skill
+						name=" DevOps"
+						detail="Terraform, Ansible, Digital Ocean, CI/CD, Jenkins, Docker, Google Cloud, Kubernetes, AWS"
 						icon={nodeIcon}
 					/>
 					<Skill
