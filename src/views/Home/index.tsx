@@ -11,6 +11,8 @@ import Footer from "components/common/Footer"
 
 import "./style.scss"
 
+import "./index.css"
+
 const Home = () => {
 	return (
 		<div>
@@ -24,74 +26,32 @@ const Home = () => {
 				</a>
 			</div>
 
-			<div style={{ marginBottom: "40px", marginRight: "20px", marginLeft: "20px" }}>
-				<h2 style={{ marginBottom: "10px" }}>Youtube Channel Videos</h2>
-				<p style={{ marginBottom: "20px" }}>All About Coding, Devops, Backend development</p>
-				<div style={{ display: "flex", justifyContent: "space-between", marginBottom: "40px" }}>
-					<div style={{ flexBasis: "30%", marginRight: "20px" }}>
-						<iframe
-							width="100%"
-							height="220"
-							src="https://www.youtube.com/embed/Wz-zOpzk1Jk"
-							title="YouTube video player"
-							frameBorder="0"
-							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-						/>
-					</div>
-					<div style={{ flexBasis: "30%", marginRight: "20px" }}>
-						<iframe
-							width="100%"
-							height="220"
-							src="https://www.youtube.com/embed/pXNB8uAGlx8"
-							title="YouTube video player"
-							frameBorder="0"
-							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-						/>
-					</div>
-					<div style={{ flexBasis: "30%" }}>
-						<iframe
-							width="100%"
-							height="220"
-							src="https://www.youtube.com/embed/9q6XbhLawRI"
-							title="YouTube video player"
-							frameBorder="0"
-							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-						/>
-					</div>
-				</div>
-				<div style={{ display: "flex", justifyContent: "space-between" }}>
-					<div style={{ flexBasis: "30%", marginRight: "20px" }}>
-						<iframe
-							width="100%"
-							height="220"
-							src="https://www.youtube.com/embed/LaoYcQsPyD8"
-							title="YouTube video player"
-							frameBorder="0"
-							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-						/>
-					</div>
-					<div style={{ flexBasis: "30%", marginRight: "20px" }}>
-						<iframe
-							width="100%"
-							height="220"
-							src="https://www.youtube.com/embed/W_nqdc6IMDw"
-							title="YouTube video player"
-							frameBorder="0"
-							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-						/>
-					</div>
-					<div style={{ flexBasis: "30%" }}>
-						<iframe
-							width="100%"
-							height="220"
-							src="https://www.youtube.com/embed/fPXRhJPJQOI"
-							title="YouTube video player"
-							frameBorder="0"
-							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-						/>
-					</div>
-				</div>
-			</div>
+
+<div className="video-section">
+    <h2>Youtube Channel Videos</h2>
+    <p style={{ marginBottom: "50px" }}>All About Coding, Devops, Backend development</p>
+    <div className="video-container">
+        <div className="video">
+            <iframe width="100%" height="220" src="https://www.youtube.com/embed/Wz-zOpzk1Jk" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+        </div>
+        <div className="video">
+            <iframe width="100%" height="220" src="https://www.youtube.com/embed/pXNB8uAGlx8" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+        </div>
+        <div className="video">
+            <iframe width="100%" height="220" src="https://www.youtube.com/embed/9q6XbhLawRI" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+        </div>
+        <div className="video">
+            <iframe width="100%" height="220" src="https://www.youtube.com/embed/LaoYcQsPyD8" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+        </div>
+        <div className="video">
+            <iframe width="100%" height="220" src="https://www.youtube.com/embed/W_nqdc6IMDw" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+        </div>
+        <div className="video">
+            <iframe width="100%" height="220" src="https://www.youtube.com/embed/fPXRhJPJQOI" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+        </div>
+    </div>
+</div>
+
 
 
 			<RecentProjects />
